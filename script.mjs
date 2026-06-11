@@ -1,4 +1,5 @@
 import { countUsers, listUserIDs } from "./common.mjs";
+import { getListeningAnswers } from "./analytics.mjs";
 
 //window.onload = function () {
 //  document.querySelector("#results").innerText =
@@ -160,4 +161,4 @@ userSelect.addEventListener("change", (event) => {
   }
 });
 
-initialiseUsers();
+window.onload = initialiseUsers;
