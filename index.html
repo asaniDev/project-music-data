@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="script.mjs"></script>
+    <title>Music Data</title>
+  </head>
+  <body>
+    <header>
+      <h1>Music Data</h1>
+    </header>
+
+    <main>
+      <form aria-labelledby="user-heading">
+        <h2 id="user-heading">Choose a user</h2>
+        <label for="user-select">User</label>
+        <select id="user-select" name="user">
+          <option value="">Select a user</option>
+        </select>
+      </form>
+
+      <div id="results" class="results" aria-live="polite" hidden></div>
+    </main>
+  </body>
+</html>
