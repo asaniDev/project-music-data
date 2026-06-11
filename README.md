@@ -19,9 +19,8 @@ A small semantic HTML and JavaScript frontend that calculates listening answers 
 - `data.mjs` - supplied data helpers.
 - `common.mjs` - shared helpers based on the data module.
 - `analytics.mjs` - pure calculation functions.
-- `app.mjs` - DOM rendering and user selection.
-- `tests/analytics.test.mjs` - unit test.
-- `.github/workflows/deploy.yml` - GitHub Pages deployment.
+- `script.mjs` - DOM rendering and user selection.
+- `common.test.mjs` - unit test.
 
 ## Run Locally
 
@@ -41,9 +40,7 @@ npm test
 
 ## Deployment
 
-The included GitHub Actions workflow deploys the site to GitHub Pages whenever changes are pushed or merged to the `main` branch.
-
-In GitHub, set Pages to use GitHub Actions as the source. After the workflow runs, GitHub will provide the public site URL.
+The included Netlify workflow deploys the site to Netlify Pages whenever changes are pushed or merged to the `main` branch.
 
 ## Accessibility Notes
 
